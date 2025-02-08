@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
                     <div class="hero-image-container">
-                        <img src="images/img1.jpg" alt="Mobile devices" class="img-fluid rounded-lg shadow-lg floating">
+                        <img src="./images/img1.jpg" alt="Mobile devices" class="img-fluid rounded-lg shadow-lg floating">
                     </div>
                 </div>
             </div>
@@ -166,15 +166,18 @@
     </section>
 
     <!-- Courses Section -->
-    <section id="courses" class="py-5" data-aos="fade-up">
+    <section id="courses" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5" data-aos="fade-down">
-                <i class="fas fa-graduation-cap text-primary me-2"></i>Professional Mobile Repair Training
-            </h2>
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <span class="badge bg-primary mb-3">Professional Training</span>
+                <h2 class="display-5 fw-bold">Master Mobile Repair</h2>
+                <p class="lead text-muted">Comprehensive training programs for all skill levels</p>
+            </div>
+
             <div class="row align-items-center">
                 <div class="col-lg-6" data-aos="fade-right">
                     <div class="course-overview">
-                        <div class="course-levels mb-4">
+                        <div class="course-levels" data-aos="fade-up" data-aos-delay="100">
                             <span class="level-badge basic">
                                 <i class="fas fa-star"></i> Basic Level
                             </span>
@@ -185,60 +188,73 @@
                                 <i class="fas fa-star"></i> Advanced
                             </span>
                         </div>
-                        <h3 class="mb-4">Complete Mobile Repair Mastery Program</h3>
-                        <div class="course-highlights mb-4">
+                        
+                        <h3 class="h2 mt-4">Complete Mobile Repair Mastery Program</h3>
+                        
+                        <div class="course-highlights" data-aos="fade-up" data-aos-delay="200">
                             <div class="highlight-item">
                                 <i class="fas fa-clock"></i>
-                                <span>12 Weeks Full Program</span>
+                                <div>
+                                    <h5>Duration</h5>
+                                    <p class="mb-0">12 Weeks Full Program</p>
+                                </div>
                             </div>
                             <div class="highlight-item">
                                 <i class="fas fa-users"></i>
-                                <span>Small Batch Size (10 Students)</span>
+                                <div>
+                                    <h5>Batch Size</h5>
+                                    <p class="mb-0">10 Students Max</p>
+                                </div>
                             </div>
                             <div class="highlight-item">
                                 <i class="fas fa-certificate"></i>
-                                <span>Industry Certification</span>
-                            </div>
-                        </div>
-                        <div class="course-features mb-4">
-                            <h5><i class="fas fa-check-circle text-success me-2"></i>What You'll Learn:</h5>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <ul class="feature-list">
-                                        <li>Basic to Advanced Repairs</li>
-                                        <li>Chip Level Training</li>
-                                        <li>Business Management</li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="feature-list">
-                                        <li>Practical Sessions</li>
-                                        <li>Real-time Projects</li>
-                                        <li>Industry Experience</li>
-                                    </ul>
+                                <div>
+                                    <h5>Certification</h5>
+                                    <p class="mb-0">Industry Recognized</p>
                                 </div>
                             </div>
                         </div>
-                        <a href="course-details.html" class="btn btn-primary btn-lg learn-more-btn">
-                            <span>Explore Full Course</span>
-                            <i class="fas fa-arrow-right ms-2"></i>
-                        </a>
+
+                        <div class="row mt-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="col-md-6">
+                                <h5><i class="fas fa-check-circle text-success"></i> Core Modules</h5>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i>Basic to Advanced Repairs</li>
+                                    <li><i class="fas fa-check"></i>Chip Level Training</li>
+                                    <li><i class="fas fa-check"></i>Business Management</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h5><i class="fas fa-check-circle text-success"></i> Benefits</h5>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i>Practical Sessions</li>
+                                    <li><i class="fas fa-check"></i>Real-time Projects</li>
+                                    <li><i class="fas fa-check"></i>Placement Support</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="mt-4" data-aos="fade-up" data-aos-delay="400">
+                            <a href="course-details.html" class="btn btn-primary btn-lg">
+                                Explore Full Course
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
+
                 <div class="col-lg-6" data-aos="fade-left">
                     <div class="course-preview">
-                        <img src="images/course-img.jpg" alt="Course Preview" class="img-fluid rounded-3 shadow-lg">
+                        <img src="images/course-img.jpg" alt="Course Preview" class="img-fluid">
                         <div class="experience-badge">
-                            <span>10+ Years</span>
-                            Training Experience
+                            <span>10+</span>
+                            Years Training Experience
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="py-5" data-aos="fade-up">
@@ -306,76 +322,118 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Replace existing footer with this enhanced footer -->
     <footer id="contact" class="bg-dark text-white py-5">
         <div class="container">
-            <div class="row g-4">
-                <!-- Main Branch -->
-                <div class="col-lg-3" data-aos="fade-right">
-                    <div class="footer-brand mb-4">
-                        <img src="images/w2r-logo.png" alt="Way2Repair Logo" height="40" class="me-2">
-                        <span class="brand-text h4">Way2Repair</span>
+            <div class="row">
+                <!-- Company Info & Branches Column -->
+                <div class="col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="footer-brand-wrapper mb-4">
+                        <div class="footer-brand">
+                            <img src="images/w2r-logo.png" alt="Way2Repair Logo" height="45" class="me-2">
+                            <span class="brand-text h4">Way2Repair</span>
+                        </div>
+                        <p class="mt-3 footer-description">Professional mobile repair services and expert training center with over 10 years of experience.</p>
                     </div>
-                    <div class="branch-info main-branch">
-                        <h6 class="branch-title"><i class="fas fa-building me-2"></i>Main Branch</h6>
-                        <div class="contact-info">
-                            <div class="footer-contact-item">
-                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                <span>477/1 M.S Road, 3, Parvathipuram, Nagercoil, Tamil Nadu 629003</span>
+                    
+                    <div class="branches-wrapper">
+                        <div class="branch-card main-branch mb-3">
+                            <div class="branch-header">
+                                <i class="fas fa-building"></i>
+                                <h6>Main Branch</h6>
                             </div>
-                            <div class="footer-contact-item">
-                                <i class="fas fa-phone text-primary me-3"></i>
-                                <span>+91 98765 43210</span>
+                            <div class="branch-details">
+                                <p class="location"><i class="fas fa-map-marker-alt"></i> 477/1 M.S Road, Parvathipuram, Nagercoil</p>
+                                <p class="phone"><i class="fas fa-phone"></i> +91 98765 43210</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="branch-info sub-branch mt-4">
-                        <h6 class="branch-title"><i class="fas fa-store me-2"></i>Sub Branch</h6>
-                        <div class="contact-info">
-                            <div class="footer-contact-item">
-                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                <span>41A, jemila building 1st Floor, Victoria Press Road, WCC Rd, near Tower Junction, Nagercoil, Tamil Nadu 629001</span>
+                        
+                        <div class="branch-card sub-branch">
+                            <div class="branch-header">
+                                <i class="fas fa-store"></i>
+                                <h6>Sub Branch</h6>
                             </div>
-                            <div class="footer-contact-item">
-                                <i class="fas fa-phone text-primary me-3"></i>
-                                <span>+91 98765 43211</span>
+                            <div class="branch-details">
+                                <p class="location"><i class="fas fa-map-marker-alt"></i> 41A, Victoria Press Road, Near Tower Junction</p>
+                                <p class="phone"><i class="fas fa-phone"></i> +91 98765 43211</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Quick Links -->
-                <div class="col-lg-3" data-aos="fade-up">
-                    <h5 class="footer-heading">Quick Links</h5>
-                    <ul class="footer-links list-unstyled">
-                        <li><a href="#services"><i class="fas fa-chevron-right me-2"></i>Services</a></li>
-                        <li><a href="#courses"><i class="fas fa-chevron-right me-2"></i>Courses</a></li>
-                        <li><a href="#testimonials"><i class="fas fa-chevron-right me-2"></i>Testimonials</a></li>
-                    </ul>
-                    <div class="newsletter-form mt-4">
-                        <h5 class="footer-heading">Subscribe Newsletter</h5>
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Enter your email">
-                            <button class="btn btn-primary pulse-button">
-                                <i class="fas fa-paper-plane"></i>
-                            </button>
                         </div>
                     </div>
                 </div>
 
-                <!-- Maps Section -->
-                <div class="col-lg-6" data-aos="fade-left">
-                    <h5 class="footer-heading mb-4">Find Us</h5>
-                    <div class="maps-wrapper">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.1302131495354!2d77.40122187447399!3d8.189635691841952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f1420fe664b7%3A0xb41bffd08abc076c!2sWay2Repair%20Professional%20iphone%20Repair%20Center!5e0!3m2!1sen!2sin!4v1738498177528!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- Quick Links & Newsletter Column -->
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="footer-links-wrapper">
+                        <h5 class="footer-heading">Quick Access</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="footer-links primary-links">
+                                    <li><a href="#services">Our Services</a></li>
+                                    <li><a href="#courses">Training Courses</a></li>
+                                    <li><a href="#about">About Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="footer-links secondary-links">
+                                    <li><a href="#testimonials">Testimonials</a></li>
+                                    <li><a href="#contact">Contact Us</a></li>
+                                    <li><a href="#support">Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="newsletter-wrapper mt-4">
+                        <h5 class="footer-heading">Stay Updated</h5>
+                        <p class="newsletter-description">Subscribe to our newsletter for latest updates and offers.</p>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <button class="btn btn-primary pulse-button" type="submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Map & Social Links Column -->
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="map-wrapper mb-4">
+                        <h5 class="footer-heading">Find Us</h5>
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.1302131495354!2d77.40122187447399!3d8.189635691841952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f1420fe664b7%3A0xb41bffd08abc076c!2sWay2Repair%20Professional%20iphone%20Repair%20Center!5e0!3m2!1sen!2sin!4v1738498177528!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="social-wrapper">
+                        <h5 class="footer-heading">Connect With Us</h5>
+                        <div class="social-links">
+                            <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link youtube"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-link whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <hr class="footer-divider">
-                
-            <div class="footer-bottom text-center">
-                <p class="mb-0">© 2024 Way2Repair. All rights reserved.</p>
+            
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright mb-md-0">© 2024 Way2Repair. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="footer-meta">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Details - Way2Repair</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/service.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/w2r-logo.png" alt="TechFix Pro Logo" height="40" class="me-2">
+                <span class="brand-text">Way2Repair</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-hover" href="index.html#services">
+                            <i class="fas fa-tools me-1"></i>Services
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-hover" href="index.html#courses">
+                            <i class="fas fa-graduation-cap me-1"></i>Courses
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-hover" href="index.html#testimonials">
+                            <i class="fas fa-star me-1"></i>Testimonials
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-hover" href="index.html#contact">
+                            <i class="fas fa-envelope me-1"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Services Overview Section -->
+    <section class="services-overview">
+        <div class="background-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="services-content">
+                        <span class="badge service-badge mb-3">Professional Repair Services</span>
+                        <h2 class="section-title">Expert Mobile Device Repairs</h2>
+                        <p class="lead text-muted mb-4">We specialize in professional repair services for both Android and Apple devices, offering quick and reliable solutions.</p>
+                        
+                        <div class="service-highlights">
+                            <div class="highlight-item" data-aos="fade-up" data-aos-delay="100">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-tools"></i>
+                                </div>
+                                <h5>Certified Technicians</h5>
+                                <p>Expert repair specialists with years of experience</p>
+                            </div>
+                            
+                            <div class="highlight-item" data-aos="fade-up" data-aos-delay="200">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <h5>Quick Turnaround</h5>
+                                <p>Most repairs completed within 24-48 hours</p>
+                            </div>
+                            
+                            <div class="highlight-item" data-aos="fade-up" data-aos-delay="300">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h5>Warranty Assured</h5>
+                                <p>All repairs come with our service warranty</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-stats mt-4">
+                            <div class="d-flex align-items-center gap-4">
+                                <div class="stat-item">
+                                    <span class="stat-counter" data-target="5000">0</span>+
+                                    <span class="d-block text-muted">Repairs Done</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-counter" data-target="98">0</span>%
+                                    <span class="d-block text-muted">Success Rate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="services-image">
+                        <div class="image-wrapper">
+                            <img src="images/service1.jpeg" alt="Mobile Repair Service" class="img-fluid main-image">
+                            <div class="experience-badge">
+                                <span class="years">10+</span>
+                                <span class="text">Years Experience</span>
+                            </div>
+                            <div class="floating-card">
+                                <i class="fas fa-tools"></i>
+                                <span>Professional Tools</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Categories Section -->
+    <section class="service-categories">
+        <div class="section-pattern-top">
+            <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path fill="currentColor" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1056,192,1152,208C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+
+        <div class="container">
+            <div class="category-intro text-center mb-5">
+                <div class="section-badge" data-aos="fade-up">Our Services</div>
+                <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Repair Categories</h2>
+                <p class="section-description" data-aos="fade-up" data-aos-delay="200">Choose your device type to explore our specialized repair solutions</p>
+            </div>
+
+            <!-- Category Navigation -->
+            <div class="category-nav" data-aos="fade-up">
+                <div class="nav-pills-custom">
+                    <button class="category-tab active" data-target="android">
+                        <i class="fab fa-android"></i>
+                        <span>Android</span>
+                    </button>
+                    <button class="category-tab" data-target="apple">
+                        <i class="fab fa-apple"></i>
+                        <span>Apple</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Category Content -->
+            <div class="category-content mt-5">
+                <!-- Android Section -->
+                <div class="category-pane active" id="android">
+                    <div class="row g-4">
+                        <!-- Display Issues -->
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                            <div class="repair-category-card">
+                                <div class="category-image">
+                                    <img src="images/service1.jpeg" alt="Screen Repair" class="repair-img">
+                                    <div class="category-overlay">
+                                        <span class="repair-count">500+ Repairs</span>
+                                    </div>
+                                </div>
+                                <h3>Display Issues</h3>
+                                <ul class="feature-list-animated">
+                                    <li>Screen Replacement</li>
+                                    <li>Touch Sensitivity Fix</li>
+                                    <li>Display Calibration</li>
+                                    <li>Glass Replacement</li>
+                                </ul>
+                                <a href="#" class="repair-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Hardware Problems -->
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="repair-category-card">
+                                <div class="category-image">
+                                    <img src="images/service2.jpeg" alt="Hardware Repair" class="repair-img">
+                                    <div class="category-overlay">
+                                        <span class="repair-count">1000+ Repairs</span>
+                                    </div>
+                                </div>
+                                <h3>Hardware Issues</h3>
+                                <ul class="feature-list-animated">
+                                    <li>Battery Replacement</li>
+                                    <li>Charging Port Repair</li>
+                                    <li>Camera Repair</li>
+                                    <li>Speaker Replacement</li>
+                                </ul>
+                                <a href="#" class="repair-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Software Solutions -->
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <div class="repair-category-card">
+                                <div class="category-image">
+                                    <img src="images/service3.jpg" alt="Software Solutions" class="repair-img">
+                                    <div class="category-overlay">
+                                        <span class="repair-count">2000+ Repairs</span>
+                                    </div>
+                                </div>
+                                <h3>Software Solutions</h3>
+                                <ul class="feature-list-animated">
+                                    <li>OS Updates</li>
+                                    <li>Data Recovery</li>
+                                    <li>Performance Optimization</li>
+                                    <li>Security Updates</li>
+                                </ul>
+                                <a href="#" class="repair-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apple Section -->
+                <div class="category-pane" id="apple">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                            <div class="repair-category-card">
+                                <div class="category-image">
+                                    <img src="images/service4.jpg" alt="iPhone Screen Repair" class="repair-img">
+                                    <div class="category-overlay">
+                                        <span class="repair-count">1000+ Repairs</span>
+                                    </div>
+                                </div>
+                                <h3>iOS Display Issues</h3>
+                                <ul class="feature-list-animated">
+                                    <li>iPhone Screen Replacement</li>
+                                    <li>Face ID Repair</li>
+                                    <li>True Tone Calibration</li>
+                                    <li>Original Display Fitting</li>
+                                </ul>
+                                <a href="#" class="repair-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="repair-category-card">
+                                <div class="category-image">
+                                    <img src="images/service1.jpeg" alt="iPhone Hardware Repair" class="repair-img">
+                                    <div class="category-overlay">
+                                        <span class="repair-count">1500+ Repairs</span>
+                                    </div>
+                                </div>
+                                <h3>iOS Hardware Issues</h3>
+                                <ul class="feature-list-animated">
+                                    <li>Battery Service</li>
+                                    <li>Logic Board Repair</li>
+                                    <li>Water Damage Treatment</li>
+                                    <li>Camera Module Repair</li>
+                                </ul>
+                                <a href="#" class="repair-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <div class="repair-category-card">
+                                <div class="category-image">
+                                    <img src="images/service3.jpg" alt="iPhone Software Solutions" class="repair-img">
+                                    <div class="category-overlay">
+                                        <span class="repair-count">2500+ Repairs</span>
+                                    </div>
+                                </div>
+                                <h3>iOS Software Solutions</h3>
+                                <ul class="feature-list-animated">
+                                    <li>iOS Updates</li>
+                                    <li>iCloud Solutions</li>
+                                    <li>Data Recovery</li>
+                                    <li>Backup Services</li>
+                                </ul>
+                                <a href="#" class="repair-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Company Info & Branches Column -->
+            <div class="col-lg-4 mb-4" data-aos="fade-up">
+                <div class="footer-brand-wrapper mb-4">
+                    <div class="footer-brand">
+                        <img src="images/w2r-logo.png" alt="Way2Repair Logo" height="45" class="me-2">
+                        <span class="brand-text h4">Way2Repair</span>
+                    </div>
+                    <p class="mt-3 footer-description">Professional mobile repair services and expert training center with over 10 years of experience.</p>
+                </div>
+                
+                <div class="branches-wrapper">
+                    <div class="branch-card main-branch mb-3">
+                        <div class="branch-header">
+                            <i class="fas fa-building"></i>
+                            <h6>Main Branch</h6>
+                        </div>
+                        <div class="branch-details">
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> 477/1 M.S Road, Parvathipuram, Nagercoil</p>
+                            <p class="phone"><i class="fas fa-phone"></i> +91 98765 43210</p>
+                        </div>
+                    </div>
+                    
+                    <div class="branch-card sub-branch">
+                        <div class="branch-header">
+                            <i class="fas fa-store"></i>
+                            <h6>Sub Branch</h6>
+                        </div>
+                        <div class="branch-details">
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> 41A, Victoria Press Road, Near Tower Junction</p>
+                            <p class="phone"><i class="fas fa-phone"></i> +91 98765 43211</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links & Newsletter Column -->
+            <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="footer-links-wrapper">
+                    <h5 class="footer-heading">Quick Access</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="footer-links primary-links">
+                                <li><a href="#services">Our Services</a></li>
+                                <li><a href="#courses">Training Courses</a></li>
+                                <li><a href="#about">About Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="footer-links secondary-links">
+                                <li><a href="#testimonials">Testimonials</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                                <li><a href="#support">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="newsletter-wrapper mt-4">
+                    <h5 class="footer-heading">Stay Updated</h5>
+                    <p class="newsletter-description">Subscribe to our newsletter for latest updates and offers.</p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button class="btn btn-primary pulse-button" type="submit">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map & Social Links Column -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="map-wrapper mb-4">
+                    <h5 class="footer-heading">Find Us</h5>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.1302131495354!2d77.40122187447399!3d8.189635691841952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f1420fe664b7%3A0xb41bffd08abc076c!2sWay2Repair%20Professional%20iphone%20Repair%20Center!5e0!3m2!1sen!2sin!4v1738498177528!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="social-wrapper">
+                    <h5 class="footer-heading">Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+        
+        <div class="footer-bottom">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright mb-md-0">© 2024 Way2Repair. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="footer-meta">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = themeToggle.querySelector('i');
+        const html = document.documentElement;
+
+        // Check system preference
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        // Check saved theme or use system preference
+        const savedTheme = localStorage.getItem('theme') || (prefersDark ? 'dark' : 'light');
+        html.setAttribute('data-theme', savedTheme);
+        updateIcon(savedTheme === 'dark');
+        updateTheme(savedTheme === 'dark');
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateIcon(newTheme === 'dark');
+            updateTheme(newTheme === 'dark');
+            
+            // Add transition class for smooth theme change
+            html.classList.add('theme-transition');
+            setTimeout(() => {
+                html.classList.remove('theme-transition');
+            }, 300);
+        });
+
+        function updateIcon(isDark) {
+            themeIcon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+        }
+
+        function updateTheme(isDark) {
+            const navbar = document.querySelector('.navbar');
+            if (isDark) {
+                navbar.classList.remove('navbar-light');
+                navbar.classList.add('navbar-dark');
+            } else {
+                navbar.classList.remove('navbar-dark');
+                navbar.classList.add('navbar-light');
+            }
+        }
+
+        // Device Toggle Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleBtns = document.querySelectorAll('.toggle-btn');
+            const devicePanels = document.querySelectorAll('.device-panel');
+
+            toggleBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const target = this.getAttribute('data-target');
+                    
+                    // Update buttons
+                    toggleBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Update panels
+                    devicePanels.forEach(panel => {
+                        if (panel.id === target) {
+                            panel.classList.add('active');
+                            // Trigger AOS refresh for animations
+                            AOS.refresh();
+                        } else {
+                            panel.classList.remove('active');
+                        }
+                    });
+                });
+            });
+        });
+
+        // Category Tab Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryTabs = document.querySelectorAll('.category-tab');
+            const categoryPanes = document.querySelectorAll('.category-pane');
+
+            categoryTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Remove active class from all tabs and panes
+                    categoryTabs.forEach(t => t.classList.remove('active'));
+                    categoryPanes.forEach(p => p.classList.remove('active'));
+                    
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    
+                    // Show corresponding pane
+                    const targetId = this.getAttribute('data-target');
+                    const targetPane = document.getElementById(targetId);
+                    if (targetPane) {
+                        targetPane.classList.add('active');
+                        // Reset AOS animations
+                        AOS.refresh();
+                    }
+                });
+            });
+        });
+
+        // Counter Animation
+        const counters = document.querySelectorAll('.stat-counter');
+        counters.forEach(counter => {
+            const target = parseInt(counter.getAttribute('data-target'));
+            const duration = 2000;
+            const increment = target / (duration / 16);
+            let current = 0;
+            
+            const updateCounter = () => {
+                current += increment;
+                if (current < target) {
+                    counter.textContent = Math.floor(current);
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    counter.textContent = target;
+                }
+            };
+            
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    if (entries[0].isIntersecting) {
+                        updateCounter();
+                        observer.disconnect();
+                    }
+                },
+                { threshold: 0.5 }
+            );
+            
+            observer.observe(counter);
+        });
+    </script>
+</body>
+</html>
