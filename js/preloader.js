@@ -1,6 +1,6 @@
 const chars = document.querySelectorAll('.brand-text-wrapper .char');
 const logo = document.querySelector('.logo-wrapper');
-const totalDuration = 2.2;
+const totalDuration = 3.2;
 const loadingBar = document.querySelector('.loading-bar');
 const loadingBarWidth = loadingBar.offsetWidth; // Get actual widt
 gsap.timeline({
