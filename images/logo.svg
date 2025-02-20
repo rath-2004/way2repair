@@ -1,0 +1,59 @@
+<svg viewBox="0 0 785.0228492647059 554.1888" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" id="Layer_1" style="max-height: 500px" width="785.0228492647059" height="554.1888">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .05em;
+      }
+
+      .cls-2 {
+        fill: #ff3131;
+      }
+
+      .cls-3 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 92px;
+      }
+
+      .cls-4 {
+        letter-spacing: .04em;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #064cad;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-6 {
+        fill: #064cad;
+      }
+
+      .cls-7 {
+        letter-spacing: .02em;
+      }
+
+      .cls-8 {
+        fill: #545454;
+      }
+
+      .cls-9 {
+        letter-spacing: .05em;
+      }
+
+      .cls-10 {
+        letter-spacing: .05em;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect ry="38.87" rx="38.87" height="111.96" width="599.24" y="561.88" x="67.89" class="cls-5"></rect>
+    <text transform="translate(95.61 643.29)" class="cls-3"><tspan y="0" x="0" class="cls-7">W</tspan><tspan y="0" x="79.49" class="cls-4">a</tspan><tspan y="0" x="127.79" class="cls-9">y 2 </tspan><tspan y="0" x="276.09" class="cls-1">R</tspan><tspan y="0" x="330.64" class="cls-10">epair</tspan></text>
+  </g>
+  <g>
+    <path d="M367.48,378.48l46.2,46.2-99.91,99.91c-23.42,23.42-61.38,23.43-84.82.04L17.61,313.66c-23.47-23.43-23.48-61.44-.04-84.89L228.77,17.57c23.43-23.43,61.42-23.43,84.85,0l38.59,38.59-46.1,46.1-34.33-34.33-202.89,202.89,203.11,203.11,95.46-95.46Z" data-index="0" style="opacity: 1;"></path>
+    <path d="M367.55,163.69l-46.2-46.2,99.91-99.91c23.42-23.42,61.38-23.43,84.82-.04l211.34,210.97c23.47,23.43,23.48,61.44.04,84.89l-211.2,211.2c-23.43,23.43-61.42,23.43-84.85,0l-38.59-38.59,46.1-46.1,34.33,34.33,202.89-202.89-203.11-203.11-95.46,95.46Z" class="cls-8" data-index="1" style="opacity: 1;"></path>
+  </g>
+  <polygon points="560.83 181.17 476.25 320.94 398.78 181.17 560.83 181.17" class="cls-2"></polygon>
+  <polygon points="351.13 181.17 451.39 362.03 420.76 412.65 367.55 317.2 311.01 410.64 183.81 181.17 244.21 181.46 321.84 321.31 347.17 279.09 292.45 181.17 351.13 181.17" class="cls-6"></polygon>
+</svg>

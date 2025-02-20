@@ -1,0 +1,123 @@
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #000000, #1a1a1a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    will-change: opacity, visibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.preloader.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* Add this to ensure proper height on mobile devices */
+@supports (-webkit-touch-callout: none) {
+    .preloader {
+        height: -webkit-fill-available;
+    }
+}
+
+/* Add responsive adjustments */
+@media screen and (max-height: 400px) {
+    .preloader {
+        padding: 1rem;
+    }
+}
+
+.brand-text-wrapper {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    overflow: hidden;
+    text-align: center;
+    padding: 0.8em;
+    text-transform: uppercase;
+    position: relative;
+    will-change: transform;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    margin-top: 0.5rem;
+}
+
+.char {
+    display: inline-block;
+}
+
+.blue {
+    color: #3498db;
+    font-size: clamp(2rem, 5vw, 4rem); /* Responsive font size */
+}
+
+.red {
+    color: #e74c3c;
+    font-size: clamp(3rem, 7vw, 6rem); /* Responsive font size */
+}
+
+.loading-bar {
+    width: min(300px, 80vw); /* Responsive width */
+    height: 3px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.loading-progress {
+    width: 0;
+    height: 100%;
+    background: #e74c3c;
+    transform-origin: left center;
+}
+
+/* Media Queries for different screen sizes */
+@media screen and (max-width: 480px) {
+    .brand-text {
+        letter-spacing: 2px;
+    }
+    .logo-wrapper img {
+        width: 60px;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    .loading-bar {
+        margin-top: 10px;
+    }
+}
+
+.logo-wrapper {
+    margin-bottom: 1rem;
+    animation: logoBlink 2s infinite;
+    position: relative;
+}
+
+.logo-wrapper img {
+    width: 150px;
+    height: 100px;
+    filter: drop-shadow(0 0 10px rgba(52, 152, 219, 0.5));
+}
+
+@keyframes logoBlink {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(0.95);
+    }
+}
